@@ -1,0 +1,24 @@
+/* FONTES====================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* NAVBAR======================================================= */
+.navbar {
+    background-color: #0A2B5E !important;
+}
+
+.navbar-text{
+    color: #F3F804 !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.nav-link{
+    color: white !important;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    margin-right: 20px !important;
+}
+
+/* Container ============================================================== */
+
