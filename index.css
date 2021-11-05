@@ -21,4 +21,18 @@
 }
 
 /* Container ============================================================== */
-
+.card{
+    max-width: 900px;
+    height: 450px !important;
+    margin-top: 30px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    height: 380px;
+    padding: 10px;
+    border: 1px solid #E1D4D4;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.2));
+    border-radius: 8px;
+    align-items: center;
+    text-align: justify;
+}
