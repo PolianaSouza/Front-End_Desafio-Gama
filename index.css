@@ -60,6 +60,10 @@ p{
     text-align: justify;
     text-indent: 50px;
 }
-#componentes{
+#componentes {
+    margin-top: 30px;
+}
+
+#componentes a{
     text-decoration: none;
 }

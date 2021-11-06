@@ -90,7 +90,7 @@ input[id=userName] {
 }
 
 .btn-outline-danger{
-    width: 90px;
+    width: 110px !important;
 }
 
 .btn-success{
