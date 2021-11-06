@@ -20,6 +20,16 @@
     margin-right: 20px !important;
 }
 
+.nav-link:hover{
+    color: rgb(4, 37, 46) !important;
+    background-color: #168c90;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    margin-right: 20px !important;
+    border-bottom: 2px solid #ffff;
+    font-weight: bold !important;
+}
+
 /* Container ============================================================== */
 .container-md{
     max-width: 600px !important;
