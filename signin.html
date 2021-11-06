@@ -44,7 +44,16 @@
               <label for="userName">User Name</label>
               <input type="text" id="userName" class="form-control">
               <label for="password">Password</label>
-              <input type="text" name="password" id="password" class="form-control">
+              <input type="password" name="password" id="password" class="form-control">
+              <script>function mostrarOcultarSenha(){
+                var senha=document.getElementById("inputPassword");
+                if(senha.type=="password"){
+                  senha.type=="text"
+                }else{
+                  senha.type=="text"
+                }
+              }
+              </script>
               <label for="reset" class="reset"><a href="#">Reset password</a></label>
               <div class="row g-2" id="divButtons">
                 <div class="col" id="buttonCancel">
