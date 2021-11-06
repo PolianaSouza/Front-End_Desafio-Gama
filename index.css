@@ -31,6 +31,15 @@
     font-weight: bold !important;
 }
 
+.active{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    margin-right: 20px !important;
+    border-bottom: 2px solid #ffff;
+    font-weight: bold !important;
+    opacity: 75%;
+}
+
 /* Container ============================================================== */
 .card{
     max-width: 900px;
