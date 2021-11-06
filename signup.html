@@ -16,87 +16,98 @@
 </head>
 <body>
     <!-- NAVBAR=================================================================================================== -->
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="assets/logophotoshop.png" width="100" alt="Logo Study" ></a>
-          <span class="navbar-text">
-            Your online course platform
-          </span>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-md-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              <a class="nav-link" href="signin.html">Sign In</a>
-              <a class="nav-link active" href="signup.html">Sign Up</a>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark">
+          <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/logophotoshop.png" width="100" alt="Logo Study" ></a>
+            <span class="navbar-text">
+              Your online course platform
+            </span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-md-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link" href="signin.html">Sign In</a>
+                <a class="nav-link active" href="signup.html">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+      <!-- Container====================================================================================== -->
+      <!-- Form Register new user -->
+    <main>
+      <div class="container-md">
+        <div class="row">
+          <div class="col">
+            <div class="card h-100" id="card1" >
+              <!-- FORM------------------------------->
+              <form class="row g-3">
+                <div class="col-md-5">
+                  <label for="inputRegistration" class="form-label">Registration</label>
+                  <input type="text" class="form-control" id="inputRegistration">
+                </div>
+                <!-- Name and Age------------------------------->
+                <div class="col-md-9">
+                  <label for="inputName" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="inputName">
+                </div>
+                <div class="col-md-3">
+                  <label for="inputAge" class="form-label">Age</label>
+                  <input type="number" class="form-control" id="inputAge">
+                </div>
+                <!-- Address ---------------------------->
+                <div class="col-12">
+                  <label for="inputStreet" class="form-label">Street</label>
+                  <input type="text" class="form-control" id="inputStreet" placeholder="1234 Main St">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-5">
+                  <label for="inputState" class="form-label">State</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-5">
+                  <label for="inputCountry" class="form-label">Country</label>
+                  <select id="inputCountry" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <label for="inputZip" class="form-label">Zip code</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputUser" class="form-label">User Name</label>
+                    <input type="text" class="form-control" id="inputUser">
+                </div>
+                <div class="col-md-4">
+                  <label for="inpuPassword" class="form-label">Password</label>
+                  <input type="text" class="form-control" id="inputPassword">
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Sign Up</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
-      </nav>
-      <!-- Container====================================================================================== -->
-      <!-- Form Register new user -->
-    <div class="container-md">
-      <div class="row">
-        <div class="col">
-          <div class="card" id="card1" >
-            <!-- FORM------------------------------->
-            <form class="row g-3">
-              <div class="col-md-5">
-                <label for="inputRegistration" class="form-label">Registration</label>
-                <input type="text" class="form-control" id="inputRegistration">
-              </div>
-              <!-- Name and Age------------------------------->
-              <div class="col-md-9">
-                <label for="inputName" class="form-label">Name</label>
-                <input type="text" class="form-control" id="inputName">
-              </div>
-              <div class="col-md-3">
-                <label for="inputAge" class="form-label">Age</label>
-                <input type="number" class="form-control" id="inputAge">
-              </div>
-              <!-- Address ---------------------------->
-              <div class="col-12">
-                <label for="inputStreet" class="form-label">Street</label>
-                <input type="text" class="form-control" id="inputStreet" placeholder="1234 Main St">
-              </div>
-              <div class="col-md-6">
-                <label for="inputCity" class="form-label">City</label>
-                <input type="text" class="form-control" id="inputCity">
-              </div>
-              <div class="col-md-5">
-                <label for="inputState" class="form-label">State</label>
-                <select id="inputState" class="form-select">
-                  <option selected>Choose...</option>
-                  <option>...</option>
-                </select>
-              </div>
-              <div class="col-md-5">
-                <label for="inputCountry" class="form-label">Country</label>
-                <select id="inputCountry" class="form-select">
-                  <option selected>Choose...</option>
-                  <option>...</option>
-                </select>
-              </div>
-              <div class="col-md-4">
-                <label for="inputZip" class="form-label">Zip code</label>
-                <input type="text" class="form-control" id="inputZip">
-              </div>
-              <div class="col-md-6">
-                  <label for="inputUser" class="form-label">User Name</label>
-                  <input type="text" class="form-control" id="inputUser">
-              </div>
-              <div class="col-md-4">
-                <label for="inpuPassword" class="form-label">Password</label>
-                <input type="text" class="form-control" id="inputPassword">
-              </div>
-              <div class="col-12">
-                <button type="submit" class="btn btn-primary">Sign in</button>
-              </div>
-            </form>
-          </div>
-        </div>
       </div>
-    </div>
+    </main>
+    <footer>
+      <nav class="navbar fixed-bottom navbar-dark">
+        <div class="container-fluid justify-content-center">
+          <span>&copy;developed by group 5</span>
+        </div>
+      </nav>
+    </footer> 
   </body>
 </html>
