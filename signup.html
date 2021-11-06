@@ -356,7 +356,7 @@
               </div>
               <div class="col-md-4">
                 <label for="inputZip" class="form-label">Zip code</label>
-                <input type="text" class="form-control" id="inputZip">
+                <input type="number" class="form-control" id="inputZip">
               </div>
               <div class="col-md-6">
                   <label for="inputUser" class="form-label">User Name</label>
@@ -364,7 +364,17 @@
               </div>
               <div class="col-md-4">
                 <label for="inpuPassword" class="form-label">Password</label>
-                <input type="text" class="form-control" id="inputPassword">
+                <input type="password" class="form-control" id="inputPassword">
+                <script>function mostrarOcultarSenha(){
+                  var senha=document.getElementById("inputPassword");
+                  if(senha.type=="password"){
+                    senha.type=="text"
+                  }else{
+                    senha.type=="text"
+                  }
+                }
+                </script>
+               </button>
               </div>
               <div class="col-12">
                 <button type="submit" class="btn btn-primary">Sign in</button>
