@@ -36,36 +36,45 @@
       </nav>
   </header>
       <!-- CONTAINER--------------------------------------------------------------------------------- -->
-      <div class="container">
-        <div class="card" id="card2">
-          <form>
-            <div class="form-group">
-              <h2>Login</h2>
-              <label for="userName">User Name</label>
-              <input type="text" id="userName" class="form-control">
-              <label for="password">Password</label>
-              <input type="password" name="password" id="password" class="form-control">
-              <script>function mostrarOcultarSenha(){
-                var senha=document.getElementById("inputPassword");
-                if(senha.type=="password"){
-                  senha.type=="text"
-                }else{
-                  senha.type=="text"
+      <main>
+        <div class="container">
+          <div class="card h-100" id="card2">
+            <form>
+              <div class="form-group">
+                <h2>Login</h2>
+                <label for="userName">User Name</label>
+                <input type="text" id="userName" class="form-control">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="form-control">
+                <script>function mostrarOcultarSenha(){
+                  var senha=document.getElementById("inputPassword");
+                  if(senha.type=="password"){
+                    senha.type=="text"
+                  }else{
+                    senha.type=="text"
+                  }
                 }
-              }
-              </script>
-              <label for="reset" class="reset"><a href="#">Reset password</a></label>
-              <div class="row g-2" id="divButtons">
-                <div class="col" id="buttonCancel">
-                  <button type="button" class="btn btn-outline-danger">CANCEL</button>
-                </div>
-                <div class="col">
-                  <button type="submit" class="btn btn-success">ENTER</button>
+                </script>
+                <label for="reset" class="reset"><a href="#">Reset password</a></label>
+                <div class="row" id="divButtons">
+                  <div class="col" id="buttonCancel">
+                    <button type="button" class="btn btn-outline-danger">CANCEL</button>
+                  </div>
+                  <div class="col">
+                    <button type="submit" class="btn btn-success">ENTER</button>
+                  </div>
                 </div>
               </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
-      </div>
+      </main>
+      <footer>
+        <nav class="navbar fixed-bottom navbar-dark">
+          <div class="container-fluid justify-content-center">
+            <span>&copy;developed by group 5</span>
+          </div>
+        </nav>
+      </footer>
 </body>
 </html>

@@ -47,7 +47,6 @@
     margin-top: 30px;
     margin-left: 50%;
     transform: translate(-50%);
-    height: 380px;
     padding: 10px;
     border: 1px solid #E1D4D4;
     box-sizing: border-box;
@@ -56,14 +55,38 @@
     align-items: center;
 }
 
+h2{
+    margin-bottom: 30px !important;
+    font-weight: bold;
+    text-align: center;
+}
 p{
+    margin: 10px;
     text-align: justify;
     text-indent: 50px;
 }
+
+#componentes p{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
 #componentes {
     margin-top: 30px;
 }
 
 #componentes a{
     text-decoration: none;
+    text-align: justify;
+}
+
+footer .nav-bar{
+    background-color: #0A2B5E !important;
+    height: 10px !important;
+}
+
+span{
+    font-size: 10px;
+    color: #ffff;
 }
