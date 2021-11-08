@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 /* NAVBAR======================================================= */
+body{
+    background-color: rgb(238, 215, 187) !important;
+}
+
 .navbar {
     background-color: #0A2B5E !important;
 }
