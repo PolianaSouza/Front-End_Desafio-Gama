@@ -1,6 +1,7 @@
-<h1 style = "text-align: center;"> Desafio final Gama Academy, M4U </h1>
+<h1 style = "text-align: center;"> Desafio final Gama Academy, M4u </h1>
 
-![Gama Academy](https://res.cloudinary.com/walljobs/image/upload/v1575401331/kzv4wwbbh6sai7cwqyu8.jpg)
+<img src="https://res.cloudinary.com/walljobs/image/upload/v1575401331/kzv4wwbbh6sai7cwqyu8.jpg" 
+     alt="GamaAcademy" width="500" heigth="500"/>
 
 #   Projeto Estude M4U
 ##   Turma 1- Grupo 5
@@ -29,8 +30,13 @@
     * Maven
     * MySQL (versão 8)
     * Tymeleaf
+    * Lombok
+    * Spring Data Jpa
 
 ### Para o Front-end
     * Bootstrap
     * Html
     * Css
+
+### Docker
+Use o comando `docker-compose up` na pasta do projeto. Para instalar o banco de dados MySQL.
